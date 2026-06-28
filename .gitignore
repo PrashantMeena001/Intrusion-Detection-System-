@@ -1,0 +1,26 @@
+# data
+data/raw/
+data/processed/
+*.npy
+*.pkl
+
+# models (large files)
+models/*.keras
+models/*.json
+models/threshold.txt
+
+# support notebooks (local only)
+support notebooks/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# mac
+.DS_Store
+
+# jupyter checkpoints
+.ipynb_checkpoints/
