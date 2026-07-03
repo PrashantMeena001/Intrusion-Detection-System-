@@ -39,6 +39,7 @@ Place `KDDTrain+.txt` and `KDDTest+.txt` in `data/raw/`.
 | U2R    | 52      |
 
 Primary metric: **macro F1** — accuracy is misleading due to class imbalance.
+293 rows dropped cause then were new or rare kind of attack that was mapped to NaN IN attck map . thus got droped in .
 
 ## Setup
 
