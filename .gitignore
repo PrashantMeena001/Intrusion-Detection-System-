@@ -8,7 +8,7 @@ data/processed/
 models/*.keras
 models/*.json
 models/threshold.txt
-
+models/custom_weights
 # support notebooks (local only)
 support notebooks/
 
