@@ -1,0 +1,4277 @@
+[
+  {
+    "sample_index": 0,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.7047312259674072,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.1764116287231445,
+        "feature_value": 3.731727885131906e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9727939963340759,
+        "feature_value": 3.3827480552848157e-18
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8392151594161987,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7647388577461243,
+        "feature_value": 1.5145323860822653e-07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.2811751961708069,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.2603604793548584,
+        "feature_value": 2.7024192127788557e-07
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.23647229373455048,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.20765402913093567,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.17389638721942902,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 1,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.3961105346679688,
+        "feature_value": 0.9411764705882353
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.0649867057800293,
+        "feature_value": 4.956430054842162e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.8607410788536072,
+        "feature_value": 3.210258390898122e-17
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8414075374603271,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.6265525817871094,
+        "feature_value": 1.6667102813345504e-07
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 0.49051159620285034,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.375518262386322,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.23574626445770264,
+        "feature_value": 3.771172573764843e-07
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.20144957304000854,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.16603964567184448,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 2,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.736631155014038,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.319013237953186,
+        "feature_value": 1.1704420774507038e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9656440019607544,
+        "feature_value": 3.691611319140097e-17
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.6860736012458801,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.6393938660621643,
+        "feature_value": 2.5797776528482603e-07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.27085646986961365,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.20622983574867249,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.20557507872581482,
+        "feature_value": 3.038313126231594e-07
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.20557206869125366,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.18301811814308167,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 3,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.581756591796875,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.3054744005203247,
+        "feature_value": 1.2409530631846293e-05
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8240075707435608,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.8047873377799988,
+        "feature_value": 3.841202290340742e-14
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7651466727256775,
+        "feature_value": 1.7464225121809854e-07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3287257254123688,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.28463107347488403,
+        "feature_value": 0.38823529411764707
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.1654372364282608,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.16335925459861755,
+        "feature_value": 1.4458706183624724e-06
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.14354264736175537,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 4,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.363445520401001,
+        "feature_value": 0.7372549019607844
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.5216279029846191,
+        "feature_value": 1.3913407565923202e-07
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 1.142723798751831,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 1.0979923009872437,
+        "feature_value": 0.04
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.8948390483856201,
+        "feature_value": 9.031529846244988e-13
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.8716321587562561,
+        "feature_value": 0.0002346288610242142
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.29507580399513245,
+        "feature_value": 2.837540173417798e-06
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.23129282891750336,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.20730851590633392,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.18871693313121796,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 5,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.551295280456543,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.1975518465042114,
+        "feature_value": 2.716472211671702e-05
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8240979909896851,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.8195684552192688,
+        "feature_value": 6.698619510222135e-14
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 0.7956573367118835,
+        "feature_value": 0.04
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.5280554294586182,
+        "feature_value": 2.2029561979378403e-07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.39358964562416077,
+        "feature_value": 2.295529540346333e-06
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.29853177070617676,
+        "feature_value": 0.02
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.2596818208694458,
+        "feature_value": 0.21568627450980393
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.16833575069904327,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 6,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.847957134246826,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.0238547325134277,
+        "feature_value": 8.85585568576696e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9907893538475037,
+        "feature_value": 3.748719215293161e-18
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.842832624912262,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.5748739838600159,
+        "feature_value": 2.0652714355667254e-07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.29055365920066833,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.2588372826576233,
+        "feature_value": 2.648981544729556e-07
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2302183359861374,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.21122217178344727,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.18449582159519196,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 7,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.0553112030029297,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.1039739847183228,
+        "feature_value": 7.608894762614251e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9767321348190308,
+        "feature_value": 8.250278278237044e-26
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.42366549372673035,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3905261158943176,
+        "feature_value": 0.0091896356951431
+      },
+      {
+        "feature": "service_private",
+        "shap_value": -0.3394124209880829,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2926173508167267,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.2771245241165161,
+        "feature_value": 8.01565020739491e-08
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.19847875833511353,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.19124169647693634,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 8,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.6124839782714844,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.2499316930770874,
+        "feature_value": 1.6794817589716678e-05
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8278546333312988,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.7980518937110901,
+        "feature_value": 9.21715899492628e-13
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 0.5281184911727905,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.3447633385658264,
+        "feature_value": 1.074097127790918e-06
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.328233540058136,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.20847469568252563,
+        "feature_value": 0.11764705882352941
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.16396616399288177,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.15990763902664185,
+        "feature_value": 1.8188881765868354e-07
+      }
+    ]
+  },
+  {
+    "sample_index": 9,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.5066609382629395,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.2321569919586182,
+        "feature_value": 2.128313296497696e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9365568161010742,
+        "feature_value": 2.730927115172114e-17
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.832068920135498,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7837072610855103,
+        "feature_value": 1.5580117847257754e-07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.42177614569664,
+        "feature_value": 7.185076166857228e-06
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.2683904469013214,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.21977441012859344,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.17702969908714294,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.12362004071474075,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 10,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 1.614304780960083,
+        "feature_value": 0.5686274509803921
+      },
+      {
+        "feature": "service_smtp",
+        "shap_value": 1.0737906694412231,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.730372428894043,
+        "feature_value": 1.3981545121332377e-20
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.6421066522598267,
+        "feature_value": 0.00023584449659497808
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.4555513858795166,
+        "feature_value": 9.761124995467998e-07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.37601006031036377,
+        "feature_value": 2.534472256052486e-07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.30553025007247925,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3030170500278473,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.2614869475364685,
+        "feature_value": 0.57
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.24317997694015503,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 11,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.0663318634033203,
+        "feature_value": 0.9921568627450981
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.0702462196350098,
+        "feature_value": 7.608894762614251e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9563577771186829,
+        "feature_value": 9.880021387131942e-26
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.427487313747406,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3955332040786743,
+        "feature_value": 0.009186528713431667
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3885967433452606,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "service_private",
+        "shap_value": -0.3401023745536804,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.28536128997802734,
+        "feature_value": 8.01565020739491e-08
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.22400930523872375,
+        "feature_value": 0.99
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.19787514209747314,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 12,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.6007161140441895,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.1955351829528809,
+        "feature_value": 3.5349125626525224e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9462015628814697,
+        "feature_value": 4.483504104587956e-18
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8290688991546631,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7836792469024658,
+        "feature_value": 1.6014911833692852e-07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3096640408039093,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.20830199122428894,
+        "feature_value": 5.572785382284081e-07
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.17792311310768127,
+        "feature_value": 0.807843137254902
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.17042560875415802,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.1578989326953888,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 13,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.9990785121917725,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.0770204067230225,
+        "feature_value": 7.608894762614251e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 1.0414304733276367,
+        "feature_value": 8.107624183752851e-26
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4159790575504303,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3902070224285126,
+        "feature_value": 0.00918923186647542
+      },
+      {
+        "feature": "service_private",
+        "shap_value": -0.327608197927475,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.3101877272129059,
+        "feature_value": 1.1069231238783447e-07
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.28980329632759094,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.19577905535697937,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.1820688247680664,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 14,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.696240186691284,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.1120561361312866,
+        "feature_value": 3.945987891495803e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9802864789962769,
+        "feature_value": 2.0890876953981707e-17
+      },
+      {
+        "feature": "service_http",
+        "shap_value": 0.8309131264686584,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.603204071521759,
+        "feature_value": 2.2971615616654455e-07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.3058399558067322,
+        "feature_value": 5.744549315299685e-06
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.28489887714385986,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2034083902835846,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.17899076640605927,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.12738649547100067,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 15,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 2.989229679107666,
+        "feature_value": 0.32289628180039137
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.836216688156128,
+        "feature_value": 0.04060786348377398
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.1648720502853394,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.6981002688407898,
+        "feature_value": 0.011741682974559686
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4554644823074341,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3100663423538208,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.3017805516719818,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.250651478767395,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.17948101460933685,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_REJ",
+        "shap_value": 0.15967871248722076,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 16,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "flag_S0",
+        "shap_value": 2.2748939990997314,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 2.0089385509490967,
+        "feature_value": 0.04681577326801761
+      },
+      {
+        "feature": "count",
+        "shap_value": 1.7667442560195923,
+        "feature_value": 0.25244618395303325
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.5708544850349426,
+        "feature_value": 0.009784735812133072
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.42089536786079407,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3818223178386688,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2595183849334717,
+        "feature_value": 0.05
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.18290437757968903,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.1817956119775772,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.13732899725437164,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 17,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 2.9742798805236816,
+        "feature_value": 0.25440313111545987
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.8469059467315674,
+        "feature_value": 0.03936646416603159
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.1639615297317505,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.7131809592247009,
+        "feature_value": 0.03522504892367906
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.455854594707489,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.30916690826416016,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.30156585574150085,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.2615832984447479,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.17912696301937103,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_REJ",
+        "shap_value": 0.15967871248722076,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 18,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 2.9707462787628174,
+        "feature_value": 0.21526418786692758
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.7149884700775146,
+        "feature_value": 0.040061587612792895
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.4334386587142944,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.47773125767707825,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3577447235584259,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.32153967022895813,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": -0.30595818161964417,
+        "feature_value": 0.003913894324853229
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.1860603243112564,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_S0",
+        "shap_value": -0.16128093004226685,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.16076500713825226,
+        "feature_value": 0.07692307692307693
+      }
+    ]
+  },
+  {
+    "sample_index": 19,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 2.0588293075561523,
+        "feature_value": 0.85
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.1549286842346191,
+        "feature_value": 0.03408657812698074
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -1.0614516735076904,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.949924111366272,
+        "feature_value": 0.96
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.8995937705039978,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.6647811532020569,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": -0.3119581639766693,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.2684584856033325,
+        "feature_value": 0.07692307692307694
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.25701960921287537,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.24226783215999603,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 20,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 2.948477268218994,
+        "feature_value": 0.2309197651663405
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.8207651376724243,
+        "feature_value": 0.03978441312127163
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.1675788164138794,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.6937220096588135,
+        "feature_value": 0.015655577299412915
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.458614706993103,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.32350125908851624,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.3017805516719818,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.17953865230083466,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_REJ",
+        "shap_value": 0.15928958356380463,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.14137746393680573,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 21,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 3.282829999923706,
+        "feature_value": 0.5420743639921721
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.8845237493515015,
+        "feature_value": 0.05355104940629798
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.1807094812393188,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.4417104125022888,
+        "feature_value": 0.005870841487279843
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.40619662404060364,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2973474860191345,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.2630254328250885,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.19210489094257355,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.17704196274280548,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_S0",
+        "shap_value": -0.17192405462265015,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 22,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "flag_S0",
+        "shap_value": 2.3478410243988037,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 2.0593020915985107,
+        "feature_value": 0.05510683993867737
+      },
+      {
+        "feature": "count",
+        "shap_value": 1.7567620277404785,
+        "feature_value": 0.30332681017612523
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.5665350556373596,
+        "feature_value": 0.01761252446183953
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.45285195112228394,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.37963366508483887,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2325267493724823,
+        "feature_value": 0.09
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "shap_value": 0.15428785979747772,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_serror_rate",
+        "shap_value": 0.14703315496444702,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.13493147492408752,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 23,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "flag_S0",
+        "shap_value": 2.3915979862213135,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 2.021571159362793,
+        "feature_value": 0.047247116446094854
+      },
+      {
+        "feature": "count",
+        "shap_value": 1.6945369243621826,
+        "feature_value": 0.30919765166340507
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.4920559823513031,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3417476713657379,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "shap_value": 0.30032461881637573,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2591680884361267,
+        "feature_value": 0.09
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": -0.2189927101135254,
+        "feature_value": 0.003913894324853229
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.18442966043949127,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_serror_rate",
+        "shap_value": 0.1525004655122757,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 24,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "flag_S0",
+        "shap_value": 2.3479340076446533,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 2.0525033473968506,
+        "feature_value": 0.04336347504880675
+      },
+      {
+        "feature": "count",
+        "shap_value": 1.7247384786605835,
+        "feature_value": 0.2837573385518591
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.5525684952735901,
+        "feature_value": 0.0273972602739726
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.45298653841018677,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.37271416187286377,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.22928449511528015,
+        "feature_value": 0.09
+      },
+      {
+        "feature": "srv_serror_rate",
+        "shap_value": 0.1555381417274475,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "shap_value": 0.15325449407100677,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.1332157403230667,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 25,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "flag_S0",
+        "shap_value": 2.355639696121216,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.9074938297271729,
+        "feature_value": 0.04182860520746424
+      },
+      {
+        "feature": "count",
+        "shap_value": 1.2301377058029175,
+        "feature_value": 0.09393346379647749
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.5300467610359192,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.5297517776489258,
+        "feature_value": 0.011741682974559686
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.37399640679359436,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": -0.24364006519317627,
+        "feature_value": 0.15
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -0.20329317450523376,
+        "feature_value": 0.15
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.1904946267604828,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.18204650282859802,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 26,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 3.000539541244507,
+        "feature_value": 0.3816046966731898
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.812957525253296,
+        "feature_value": 0.041066278366456696
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.1873856782913208,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4671552777290344,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.45830532908439636,
+        "feature_value": 0.005870841487279843
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.3123256266117096,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3110460340976715,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.2571001350879669,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.18170955777168274,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_S0",
+        "shap_value": -0.14315761625766754,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 27,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 3.757033109664917,
+        "feature_value": 0.547945205479452
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.819128155708313,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.6640757322311401,
+        "feature_value": 0.009784735812133072
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.49901068210601807,
+        "feature_value": 0.028311981925838316
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4512733519077301,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.30496129393577576,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2200181633234024,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.18536952137947083,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.1595437377691269,
+        "feature_value": 0.02
+      },
+      {
+        "feature": "flag_S0",
+        "shap_value": -0.158749520778656,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 28,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "service_ecr_i",
+        "shap_value": 2.050534248352051,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "count",
+        "shap_value": 2.0268332958221436,
+        "feature_value": 0.6086105675146771
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.4352362155914307,
+        "feature_value": 0.03433135632248797
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7199326157569885,
+        "feature_value": 7.304538972109681e-07
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.5315532684326172,
+        "feature_value": 0.6086105675146771
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "shap_value": 0.47400161623954773,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.3776858150959015,
+        "feature_value": 1.836761996292523e-19
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.3330797553062439,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.16650353372097015,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.14477473497390747,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 29,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "count",
+        "shap_value": 3.1389925479888916,
+        "feature_value": 0.4246575342465753
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.9126213788986206,
+        "feature_value": 0.035580031563312735
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.171202301979065,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.7054634690284729,
+        "feature_value": 0.007827788649706457
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4420567452907562,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.31852951645851135,
+        "feature_value": 0.08
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.24931558966636658,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -0.1870492398738861,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.17433156073093414,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_S0",
+        "shap_value": -0.1622380018234253,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 30,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "service_eco_i",
+        "shap_value": 1.9563980102539062,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "shap_value": 1.782798409461975,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.2761285305023193,
+        "feature_value": 1.4493132881170003e-08
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": -1.1274404525756836,
+        "feature_value": 0.1095890410958904
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.9107832312583923,
+        "feature_value": 0.02824825182607106
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.5490624904632568,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.42698004841804504,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -0.3488672077655792,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": -0.34156709909439087,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.30055728554725647,
+        "feature_value": 0.00784313725490196
+      }
+    ]
+  },
+  {
+    "sample_index": 31,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_other",
+        "shap_value": -1.3156675100326538,
+        "feature_value": 0.02600442957739089
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.6318535208702087,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.5855132341384888,
+        "feature_value": 0.580392156862745
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.5343465805053711,
+        "feature_value": 0.7
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.5332959294319153,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": -0.4577370882034302,
+        "feature_value": 0.91
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.44171684980392456,
+        "feature_value": 0.0769230769313149
+      },
+      {
+        "feature": "srv_diff_host_rate",
+        "shap_value": 0.2548271417617798,
+        "feature_value": 0.6
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.23838084936141968,
+        "feature_value": 0.32941176470588235
+      },
+      {
+        "feature": "count",
+        "shap_value": 0.1897284835577011,
+        "feature_value": 0.0019569471624266144
+      }
+    ]
+  },
+  {
+    "sample_index": 32,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "service_eco_i",
+        "shap_value": 1.966273307800293,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "shap_value": 1.7410898208618164,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.4368947744369507,
+        "feature_value": 0.023757048149363226
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.2790809869766235,
+        "feature_value": 1.3043819593053003e-08
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.5857037305831909,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4835090935230255,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -0.3655058443546295,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": -0.35938918590545654,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.33520618081092834,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.32405588030815125,
+        "feature_value": 0.00392156862745098
+      }
+    ]
+  },
+  {
+    "sample_index": 33,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.5023341178894043,
+        "feature_value": 0.042280416121684275
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.9384951591491699,
+        "feature_value": 0.88
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -0.9228172302246094,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.5346649885177612,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.5277954936027527,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.4572846591472626,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.38881346583366394,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.3744167685508728,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.3495883047580719,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "shap_value": -0.23579765856266022,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 34,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -1.3484933376312256,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.2636981010437012,
+        "feature_value": 0.03614664241906622
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.85826575756073,
+        "feature_value": 0.9
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.6357428431510925,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.6046230792999268,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": -0.5509109497070312,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "rerror_rate",
+        "shap_value": 0.42380762100219727,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.3672018349170685,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.34543392062187195,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.32475829124450684,
+        "feature_value": 0.01
+      }
+    ]
+  },
+  {
+    "sample_index": 35,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -1.388936161994934,
+        "feature_value": 0.02
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.3082056045532227,
+        "feature_value": 0.038769254825402076
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.8026613593101501,
+        "feature_value": 0.87
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.7603740692138672,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.6291702389717102,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.5684313774108887,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": -0.4967065453529358,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "rerror_rate",
+        "shap_value": 0.4041413366794586,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.3711208999156952,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.33892545104026794,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 36,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 1.420601725578308,
+        "feature_value": 0.44
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.3468149900436401,
+        "feature_value": 0.053192204795914425
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.929495096206665,
+        "feature_value": 0.74
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.8952115178108215,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.5904017090797424,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.5632908940315247,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.5593773722648621,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.5192907452583313,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.49025851488113403,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.3939264714717865,
+        "feature_value": 0.24
+      }
+    ]
+  },
+  {
+    "sample_index": 37,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 1.7345948219299316,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.6757400035858154,
+        "feature_value": 7.246566440585001e-10
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 1.2044806480407715,
+        "feature_value": 0.02
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": -1.1799637079238892,
+        "feature_value": 0.0025020971894859946
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": -0.6062167882919312,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.5673226714134216,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.477143794298172,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.46370789408683777,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3828607499599457,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.3672953248023987,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 38,
+    "predicted_class": "DoS",
+    "base_value": -0.8142540454864502,
+    "top_features": [
+      {
+        "feature": "flag_S0",
+        "shap_value": 4.013033390045166,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "count",
+        "shap_value": -1.9482523202896118,
+        "feature_value": 0.0019569471624266144
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.8147350549697876,
+        "feature_value": 0.04764580716780398
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.781158447265625,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.48618197441101074,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "srv_count",
+        "shap_value": 0.4796338379383087,
+        "feature_value": 0.01761252446183953
+      },
+      {
+        "feature": "dst_host_srv_serror_rate",
+        "shap_value": 0.2637866735458374,
+        "feature_value": 0.63
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.16230742633342743,
+        "feature_value": 1.0808094889723727e-11
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.15876078605651855,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.15691938996315002,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 39,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 1.4871107339859009,
+        "feature_value": 0.84
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.4231843948364258,
+        "feature_value": 0.0406569772519466
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.17955482006073,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.8537529706954956,
+        "feature_value": 0.82
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.7959564924240112,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.6384115815162659,
+        "feature_value": 0.81
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.6124582290649414,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_RSTR",
+        "shap_value": 0.42482900619506836,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.41120338439941406,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "rerror_rate",
+        "shap_value": 0.2277527004480362,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 40,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 2.081035614013672,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.2431720495224,
+        "feature_value": 0.06399669186785727
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.9721149206161499,
+        "feature_value": 0.96
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.9372658729553223,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.5806170701980591,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.5625268816947937,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_private",
+        "shap_value": 0.4921502470970154,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.45042684674263,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.4434220492839813,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.3227814733982086,
+        "feature_value": 0.01
+      }
+    ]
+  },
+  {
+    "sample_index": 41,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 1.908949851989746,
+        "feature_value": 0.67
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.4439454078674316,
+        "feature_value": 0.020052626892460734
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.8726387023925781,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.8613810539245605,
+        "feature_value": 0.011764705882352941
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": -0.764811635017395,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.6213591694831848,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3286910653114319,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.3264457881450653,
+        "feature_value": 0.07692307697449387
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.3231830894947052,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.2554031312465668,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 42,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.7296797037124634,
+        "feature_value": 0.031720313633603475
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.9920991659164429,
+        "feature_value": 0.85
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -0.9187408685684204,
+        "feature_value": 0.06
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.589052140712738,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.5327981114387512,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.4244844317436218,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.36164015531539917,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "protocol_type_icmp",
+        "shap_value": -0.25205448269844055,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "rerror_rate",
+        "shap_value": 0.23962298035621643,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.23219455778598785,
+        "feature_value": 0.19607843137254902
+      }
+    ]
+  },
+  {
+    "sample_index": 43,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_other",
+        "shap_value": -1.433671474456787,
+        "feature_value": 0.029526002938629316
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.6763965487480164,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.5273860096931458,
+        "feature_value": 0.68
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.5116237998008728,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.49575135111808777,
+        "feature_value": 0.6039215686274509
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.4910055994987488,
+        "feature_value": 0.07692307692307693
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": -0.3884512186050415,
+        "feature_value": 0.89
+      },
+      {
+        "feature": "srv_diff_host_rate",
+        "shap_value": 0.2815749943256378,
+        "feature_value": 0.86
+      },
+      {
+        "feature": "flag_REJ",
+        "shap_value": 0.2409658133983612,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.19652459025382996,
+        "feature_value": 0.33
+      }
+    ]
+  },
+  {
+    "sample_index": 44,
+    "predicted_class": "Probe",
+    "base_value": -0.641201913356781,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 2.093147039413452,
+        "feature_value": 0.99
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.4540082216262817,
+        "feature_value": 0.06078460111457669
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 1.009347677230835,
+        "feature_value": 0.87
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.8898857831954956,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": 0.619621992111206,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "same_srv_rate",
+        "shap_value": 0.6122328042984009,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.4759254455566406,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.4598742127418518,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "serror_rate",
+        "shap_value": 0.31375280022621155,
+        "feature_value": 0.15
+      },
+      {
+        "feature": "rerror_rate",
+        "shap_value": 0.2588168680667877,
+        "feature_value": 0.85
+      }
+    ]
+  },
+  {
+    "sample_index": 45,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_content",
+        "shap_value": 1.0672661066055298,
+        "feature_value": 3.518470569266536e-08
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 1.0172120332717896,
+        "feature_value": 0.807843137254902
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.9300833344459534,
+        "feature_value": 0.0003201047787768706
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.5665241479873657,
+        "feature_value": 0.04
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.48939576745033264,
+        "feature_value": 8.695879728702001e-09
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4380081593990326,
+        "feature_value": 0.23
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.28694936633110046,
+        "feature_value": 0.1843137254901961
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.1886010468006134,
+        "feature_value": 0.23
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.16131901741027832,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "count",
+        "shap_value": 0.14568878710269928,
+        "feature_value": 0.0019569471624266144
+      }
+    ]
+  },
+  {
+    "sample_index": 46,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.146430253982544,
+        "feature_value": 0.9725490196078431
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.5070047974586487,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.4131176471710205,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.3669406473636627,
+        "feature_value": 2.0290386033638003e-08
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.2508525252342224,
+        "feature_value": 7.099575897978349e-08
+      },
+      {
+        "feature": "service_pop_3",
+        "shap_value": 0.17972806096076965,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.1793687492609024,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.14350172877311707,
+        "feature_value": 0.97
+      },
+      {
+        "feature": "duration",
+        "shap_value": -0.13889184594154358,
+        "feature_value": 9.322270905192505e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.12060213088989258,
+        "feature_value": 3.7026792283786714e-05
+      }
+    ]
+  },
+  {
+    "sample_index": 47,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.810704231262207,
+        "feature_value": 0.8235294117647058
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7916597723960876,
+        "feature_value": 2.1739699321755006e-08
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.5453916192054749,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": -0.2539329528808594,
+        "feature_value": 0.011763209386847556
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.19389675557613373,
+        "feature_value": 0.82
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.18388493359088898,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.1814182847738266,
+        "feature_value": 7.099575897978349e-08
+      },
+      {
+        "feature": "service_pop_3",
+        "shap_value": 0.15054580569267273,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": -0.137933611869812,
+        "feature_value": 0.00011652838631490631
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.12775889039039612,
+        "feature_value": 0.02
+      }
+    ]
+  },
+  {
+    "sample_index": 48,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.430023670196533,
+        "feature_value": 0.9372549019607843
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.6326825022697449,
+        "feature_value": 0.0730439231207151
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.6110731959342957,
+        "feature_value": 2.3189012609872004e-08
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": -0.44303882122039795,
+        "feature_value": 0.017169965630193955
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3566382825374603,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.21257302165031433,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_pop_3",
+        "shap_value": 0.18915797770023346,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": -0.1631343960762024,
+        "feature_value": 9.322270905192505e-05
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.1610419899225235,
+        "feature_value": 0.94
+      },
+      {
+        "feature": "diff_srv_rate",
+        "shap_value": -0.15424124896526337,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 49,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_content",
+        "shap_value": 1.153164029121399,
+        "feature_value": 6.562707561488799e-12
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.7610405683517456,
+        "feature_value": 0.34901960784313724
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.684112548828125,
+        "feature_value": 2.3189012609872004e-08
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 0.6635681986808777,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.6387298107147217,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.45370087027549744,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.2682792544364929,
+        "feature_value": 0.2980392156862745
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.2655130922794342,
+        "feature_value": 0.84
+      },
+      {
+        "feature": "service_pop_3",
+        "shap_value": 0.2116398811340332,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": -0.20134924352169037,
+        "feature_value": 0.11
+      }
+    ]
+  },
+  {
+    "sample_index": 50,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 1.7612371444702148,
+        "feature_value": 0.5882352941176471
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.4266979694366455,
+        "feature_value": 7.608894762614251e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 1.0478523969650269,
+        "feature_value": 1.4198037399184442e-23
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.7664337158203125,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "service_private",
+        "shap_value": -0.4533938467502594,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.372566819190979,
+        "feature_value": 1.1221910290352874e-07
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.3218924105167389,
+        "feature_value": 0.592156862745098
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": -0.27365103363990784,
+        "feature_value": 0.010813822908782706
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.2613935172557831,
+        "feature_value": 0.99
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.2302873283624649,
+        "feature_value": 0.01
+      }
+    ]
+  },
+  {
+    "sample_index": 51,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_content",
+        "shap_value": -1.5584979057312012,
+        "feature_value": 0.07999999999860763
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.7367262244224548,
+        "feature_value": 0.03137254901960784
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.7050948739051819,
+        "feature_value": 8.840811057513702e-08
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.6823498606681824,
+        "feature_value": 0.009287040787017945
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.4073624312877655,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.39208751916885376,
+        "feature_value": 0.62
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.27932310104370117,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "flag_SF",
+        "shap_value": 0.24784442782402039,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.2358936220407486,
+        "feature_value": 1.3512096063894278e-07
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.20146140456199646,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 52,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.3572473526000977,
+        "feature_value": 0.9882352941176471
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.5569319725036621,
+        "feature_value": 2.1739699321755006e-08
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4497922658920288,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.40695613622665405,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.27894312143325806,
+        "feature_value": 6.006816254310075e-05
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.23491723835468292,
+        "feature_value": 7.099575897978349e-08
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.21103821694850922,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_pop_3",
+        "shap_value": 0.1942630559206009,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": -0.10307768732309341,
+        "feature_value": 6.99170317889438e-05
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.09752189368009567,
+        "feature_value": 0.99
+      }
+    ]
+  },
+  {
+    "sample_index": 53,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.8309241533279419,
+        "feature_value": 8.695879728702002e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.3600609004497528,
+        "feature_value": 0.003082461746967414
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3402685821056366,
+        "feature_value": 0.0015004332160680745
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.3121336102485657,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.31035715341567993,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.26948049664497375,
+        "feature_value": 1.3283077486540137e-07
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.20330658555030823,
+        "feature_value": 0.27450980392156865
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.1974157989025116,
+        "feature_value": 0.04
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.16795241832733154,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.15032599866390228,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 54,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 1.3738269805908203,
+        "feature_value": 0.3568627450980392
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.8102028965950012,
+        "feature_value": 8.768345393107851e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.4239186644554138,
+        "feature_value": 0.0030801084041003415
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.27861589193344116,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.26962974667549133,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.2238083779811859,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.1551651954650879,
+        "feature_value": 1.3283077486540137e-07
+      },
+      {
+        "feature": "behavioral_gaussian_score",
+        "shap_value": -0.1444683074951172,
+        "feature_value": 407.3470096487374
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.12922389805316925,
+        "feature_value": 0.003004954716648751
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.1004134938120842,
+        "feature_value": 0.03
+      }
+    ]
+  },
+  {
+    "sample_index": 55,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 0.9798784255981445,
+        "feature_value": 0.4156862745098039
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.7808055281639099,
+        "feature_value": 0.00017194248978009348
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.43513819575309753,
+        "feature_value": 0.8470588235294118
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.404490202665329,
+        "feature_value": 0.0030847478769601144
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3568650186061859,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3360607326030731,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "is_guest_login",
+        "shap_value": -0.2732827663421631,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.21708890795707703,
+        "feature_value": 0.49
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.2116735428571701,
+        "feature_value": 1.198530554820001e-07
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.20085836946964264,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 56,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.025378465652466,
+        "feature_value": 0.9725490196078431
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.0638211965560913,
+        "feature_value": 7.608894762614251e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9720228314399719,
+        "feature_value": 1.1688239637702239e-25
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.45716866850852966,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3852750360965729,
+        "feature_value": 0.009182261374099323
+      },
+      {
+        "feature": "service_private",
+        "shap_value": -0.3523465692996979,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3511958718299866,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.3198259770870209,
+        "feature_value": 1.1145570764568161e-07
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.23068971931934357,
+        "feature_value": 0.97
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.19470185041427612,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 57,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 3.157454013824463,
+        "feature_value": 0.996078431372549
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.1214197874069214,
+        "feature_value": 7.608894762614251e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.9383479356765747,
+        "feature_value": 1.077282232567271e-25
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.4490176737308502,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "service_private",
+        "shap_value": -0.3770955801010132,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3760487139225006,
+        "feature_value": 0.009189564402093597
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.3631032407283783,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.28610748052597046,
+        "feature_value": 8.01565020739491e-08
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.19048571586608887,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.18619079887866974,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 58,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 2.7078895568847656,
+        "feature_value": 0.8313725490196078
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": -0.8530227541923523,
+        "feature_value": 0.01163499681516823
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.5906507968902588,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "protocol_type_tcp",
+        "shap_value": 0.2878263592720032,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.21710962057113647,
+        "feature_value": 9.422844224419931e-07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.20983779430389404,
+        "feature_value": 7.099575897978349e-08
+      },
+      {
+        "feature": "duration",
+        "shap_value": -0.20291770994663239,
+        "feature_value": 9.322270905192505e-05
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.19526644051074982,
+        "feature_value": 0.83
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.17270652949810028,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_pop_3",
+        "shap_value": 0.15054580569267273,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 59,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_other",
+        "shap_value": 2.1917836666107178,
+        "feature_value": 3.905298466314578e-05
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.657444953918457,
+        "feature_value": 0.0196078431372549
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.5407505035400391,
+        "feature_value": 6.13759694141738e-06
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.41104578971862793,
+        "feature_value": 0.83
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.23947983980178833,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.174299955368042,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.17208632826805115,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_ftp_data",
+        "shap_value": 0.1604122519493103,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.1600225865840912,
+        "feature_value": 8.695879728702001e-09
+      },
+      {
+        "feature": "hot",
+        "shap_value": 0.129179909825325,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 60,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -1.2733895778656006,
+        "feature_value": 0.00784313725490196
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 1.2626506090164185,
+        "feature_value": 0.0001671728422601198
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 1.185075044631958,
+        "feature_value": 1.6007665267252268e-06
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.7801380157470703,
+        "feature_value": 7.641568306999821e-06
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.514560341835022,
+        "feature_value": 0.5
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.41833677887916565,
+        "feature_value": 0.5
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.40933144092559814,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.2954009175300598,
+        "feature_value": 0.01568627450980392
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.27565649151802063,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "service_ftp_data",
+        "shap_value": 0.21507254242897034,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 61,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.9148787260055542,
+        "feature_value": 0.05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.7975358366966248,
+        "feature_value": 4.4258520743379215e-08
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.7441776394844055,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.6556734442710876,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.5998708009719849,
+        "feature_value": 0.0001829149361265402
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.5557953119277954,
+        "feature_value": 2.4802711927453393e-06
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.49501344561576843,
+        "feature_value": 0.9490196078431372
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.48328378796577454,
+        "feature_value": 0.0784313725490196
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 0.27130526304244995,
+        "feature_value": 0.1
+      },
+      {
+        "feature": "count",
+        "shap_value": 0.25551193952560425,
+        "feature_value": 0.0019569471624266144
+      }
+    ]
+  },
+  {
+    "sample_index": 62,
+    "predicted_class": "U2R",
+    "base_value": 1.616083025932312,
+    "top_features": [
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": -3.4966769218444824,
+        "feature_value": 0.14
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -1.058302879333496,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.8327108025550842,
+        "feature_value": 8.313374357955293e-07
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 0.7224440574645996,
+        "feature_value": 0.00392156862745098
+      },
+      {
+        "feature": "service_telnet",
+        "shap_value": 0.6538029909133911,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.5900927186012268,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.5485635995864868,
+        "feature_value": 0.001957676890090426
+      },
+      {
+        "feature": "num_file_creations",
+        "shap_value": 0.5228111743927002,
+        "feature_value": 0.09302325581395349
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": -0.42529451847076416,
+        "feature_value": 0.86
+      },
+      {
+        "feature": "behavioral_gaussian_score",
+        "shap_value": -0.3978932499885559,
+        "feature_value": 5985.7381471724075
+      }
+    ]
+  },
+  {
+    "sample_index": 63,
+    "predicted_class": "R2L",
+    "base_value": 0.005407959222793579,
+    "top_features": [
+      {
+        "feature": "service_telnet",
+        "shap_value": -1.3080990314483643,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -1.084684133529663,
+        "feature_value": 3.652269486054841e-07
+      },
+      {
+        "feature": "urgent",
+        "shap_value": 0.8345569372177124,
+        "feature_value": 0.3333333333333333
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": -0.7041691541671753,
+        "feature_value": 2.0764351013442054e-05
+      },
+      {
+        "feature": "num_root",
+        "shap_value": 0.585453987121582,
+        "feature_value": 0.023165506159614355
+      },
+      {
+        "feature": "behavioral_gaussian_score",
+        "shap_value": 0.4768103063106537,
+        "feature_value": 244.22149161167616
+      },
+      {
+        "feature": "num_access_files",
+        "shap_value": 0.299478679895401,
+        "feature_value": 0.2222222222222222
+      },
+      {
+        "feature": "service_ftp_data",
+        "shap_value": -0.2749784290790558,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.24637369811534882,
+        "feature_value": 0.011580727092148621
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.24503308534622192,
+        "feature_value": 0.005639973897641466
+      }
+    ]
+  },
+  {
+    "sample_index": 64,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "recon_error_content",
+        "shap_value": -1.4319679737091064,
+        "feature_value": 0.0773902358582567
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.9374831318855286,
+        "feature_value": 7.127058127260846e-06
+      },
+      {
+        "feature": "hot",
+        "shap_value": -0.902749240398407,
+        "feature_value": 0.07792207792207792
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.8688866496086121,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.8499770164489746,
+        "feature_value": 0.5725490196078431
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.461334228515625,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.45748722553253174,
+        "feature_value": 0.0003447708380288168
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.3153972923755646,
+        "feature_value": 0.13
+      },
+      {
+        "feature": "num_compromised",
+        "shap_value": -0.23684176802635193,
+        "feature_value": 0.0010696617194812142
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.158195361495018,
+        "feature_value": 0.07450980392156863
+      }
+    ]
+  },
+  {
+    "sample_index": 65,
+    "predicted_class": "U2R",
+    "base_value": 1.616083025932312,
+    "top_features": [
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -1.2141573429107666,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "service_telnet",
+        "shap_value": 1.1666158437728882,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 0.9294963479042053,
+        "feature_value": 0.01568627450980392
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.8722153902053833,
+        "feature_value": 0.0017013144401976322
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.41338104009628296,
+        "feature_value": 0.07739014232289851
+      },
+      {
+        "feature": "num_file_creations",
+        "shap_value": -0.2139340490102768,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "hot",
+        "shap_value": -0.18890950083732605,
+        "feature_value": 0.07792207792207792
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.1781158745288849,
+        "feature_value": 1.9407797640247694e-05
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.15230953693389893,
+        "feature_value": 2.710940505422849e-06
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.13384990394115448,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 66,
+    "predicted_class": "R2L",
+    "base_value": 0.005407959222793579,
+    "top_features": [
+      {
+        "feature": "num_shells",
+        "shap_value": 1.0077006816864014,
+        "feature_value": 2.5
+      },
+      {
+        "feature": "behavioral_gaussian_score",
+        "shap_value": 0.9673377871513367,
+        "feature_value": 37426.7285105281
+      },
+      {
+        "feature": "num_root",
+        "shap_value": 0.7205352187156677,
+        "feature_value": 0.006829137653990359
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": -0.7150350213050842,
+        "feature_value": 2.458819785999835e-05
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.35313400626182556,
+        "feature_value": 1.2848162299157208e-06
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": -0.32086390256881714,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.30702707171440125,
+        "feature_value": 0.02302600913582549
+      },
+      {
+        "feature": "service_telnet",
+        "shap_value": -0.29821014404296875,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_serror_rate",
+        "shap_value": 0.2247096598148346,
+        "feature_value": 0.33
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.2175181359052658,
+        "feature_value": 0.40784313725490196
+      }
+    ]
+  },
+  {
+    "sample_index": 67,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 1.097430944442749,
+        "feature_value": 0.3529411764705882
+      },
+      {
+        "feature": "hot",
+        "shap_value": -0.5821753740310669,
+        "feature_value": 0.012987012987012988
+      },
+      {
+        "feature": "num_file_creations",
+        "shap_value": -0.5629144310951233,
+        "feature_value": 0.023255813953488372
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.48405084013938904,
+        "feature_value": 6.884238118555752e-08
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.47002485394477844,
+        "feature_value": 0.0022472221119258615
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.4468769431114197,
+        "feature_value": 0.9686274509803922
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.38789600133895874,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.343521386384964,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": -0.18867184221744537,
+        "feature_value": 0.36
+      },
+      {
+        "feature": "dst_host_rerror_rate",
+        "shap_value": 0.15219518542289734,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 68,
+    "predicted_class": "R2L",
+    "base_value": 0.005407959222793579,
+    "top_features": [
+      {
+        "feature": "dst_bytes",
+        "shap_value": -1.4561537504196167,
+        "feature_value": 2.4802711927453393e-06
+      },
+      {
+        "feature": "service_ftp_data",
+        "shap_value": 0.9668899774551392,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.9094451665878296,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.8040933012962341,
+        "feature_value": 1.040008915538515e-05
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.5421907901763916,
+        "feature_value": 0.000173643270811081
+      },
+      {
+        "feature": "logged_in",
+        "shap_value": 0.44280046224594116,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3025515079498291,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.2528902590274811,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "count",
+        "shap_value": 0.2431766390800476,
+        "feature_value": 0.0019569471624266144
+      },
+      {
+        "feature": "service_telnet",
+        "shap_value": 0.1824878305196762,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 69,
+    "predicted_class": "R2L",
+    "base_value": 0.005407959222793579,
+    "top_features": [
+      {
+        "feature": "dst_bytes",
+        "shap_value": -1.3636671304702759,
+        "feature_value": 4.034543937722105e-06
+      },
+      {
+        "feature": "urgent",
+        "shap_value": 1.1569304466247559,
+        "feature_value": 0.3333333333333333
+      },
+      {
+        "feature": "num_shells",
+        "shap_value": 1.0044546127319336,
+        "feature_value": 0.5
+      },
+      {
+        "feature": "service_telnet",
+        "shap_value": -0.8587350845336914,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.4365704357624054,
+        "feature_value": 0.004288244616388552
+      },
+      {
+        "feature": "service_ftp_data",
+        "shap_value": -0.3865325152873993,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "behavioral_gaussian_score",
+        "shap_value": 0.38402533531188965,
+        "feature_value": 1495.778664290976
+      },
+      {
+        "feature": "num_root",
+        "shap_value": 0.26884034276008606,
+        "feature_value": 0.0022763792179967862
+      },
+      {
+        "feature": "num_compromised",
+        "shap_value": -0.25107795000076294,
+        "feature_value": 0.0014707848642866695
+      },
+      {
+        "feature": "dst_host_srv_diff_host_rate",
+        "shap_value": 0.24898980557918549,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 70,
+    "predicted_class": "U2R",
+    "base_value": 1.616083025932312,
+    "top_features": [
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -3.1958823204040527,
+        "feature_value": 0.13725490196078433
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 1.452870488166809,
+        "feature_value": 2.556610718530053e-06
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.8914622068405151,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": -0.6706981062889099,
+        "feature_value": 0.03
+      },
+      {
+        "feature": "service_telnet",
+        "shap_value": 0.6678881645202637,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.6045424938201904,
+        "feature_value": 0.0035890742984991146
+      },
+      {
+        "feature": "num_file_creations",
+        "shap_value": 0.43188050389289856,
+        "feature_value": 0.023255813953488372
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.40349212288856506,
+        "feature_value": 0.07708145133410432
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": -0.34187525510787964,
+        "feature_value": 1.0942315325283352e-06
+      },
+      {
+        "feature": "root_shell",
+        "shap_value": 0.2981013357639313,
+        "feature_value": 1.0
+      }
+    ]
+  },
+  {
+    "sample_index": 71,
+    "predicted_class": "U2R",
+    "base_value": 1.616083025932312,
+    "top_features": [
+      {
+        "feature": "service_telnet",
+        "shap_value": 1.2415672540664673,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 1.1037551164627075,
+        "feature_value": 0.00392156862745098
+      },
+      {
+        "feature": "duration",
+        "shap_value": 1.0991904735565186,
+        "feature_value": 0.0016547030856716696
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": 0.4591445028781891,
+        "feature_value": 0.07822048639480475
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": -0.44770559668540955,
+        "feature_value": 1.0
+      },
+      {
+        "feature": "dst_bytes",
+        "shap_value": 0.404858261346817,
+        "feature_value": 1.1635670520106021e-05
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": -0.38635674118995667,
+        "feature_value": 2.8842325125552663e-05
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.22946876287460327,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "hot",
+        "shap_value": -0.1858048439025879,
+        "feature_value": 0.12987012987012989
+      },
+      {
+        "feature": "service_other",
+        "shap_value": -0.1452755630016327,
+        "feature_value": 0.0
+      }
+    ]
+  },
+  {
+    "sample_index": 72,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_bytes",
+        "shap_value": 1.0173007249832153,
+        "feature_value": 2.7831864310590822e-05
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.9978988766670227,
+        "feature_value": 0.07788658360214186
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 0.9826850891113281,
+        "feature_value": 0.3764705882352941
+      },
+      {
+        "feature": "dst_host_count",
+        "shap_value": 0.6407622694969177,
+        "feature_value": 0.37254901960784315
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.5434983968734741,
+        "feature_value": 0.05
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.3544141352176666,
+        "feature_value": 0.01
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.33101239800453186,
+        "feature_value": 2.3594820330544765e-06
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.3260384500026703,
+        "feature_value": 0.52
+      },
+      {
+        "feature": "num_compromised",
+        "shap_value": -0.3137289583683014,
+        "feature_value": 0.003342692873378794
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.26194173097610474,
+        "feature_value": 0.41
+      }
+    ]
+  },
+  {
+    "sample_index": 73,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_host_count",
+        "shap_value": 1.152688980102539,
+        "feature_value": 0.20784313725490194
+      },
+      {
+        "feature": "hot",
+        "shap_value": -0.8678720593452454,
+        "feature_value": 0.05194805194805195
+      },
+      {
+        "feature": "num_file_creations",
+        "shap_value": -0.8055318593978882,
+        "feature_value": 0.09302325581395349
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.7742339968681335,
+        "feature_value": 0.02
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.5905928611755371,
+        "feature_value": 0.00040712782898698845
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.44153720140457153,
+        "feature_value": 0.08
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.4239501357078552,
+        "feature_value": 1.5942446169287003e-07
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": 0.3214452564716339,
+        "feature_value": 0.10588235294117647
+      },
+      {
+        "feature": "recon_error_content",
+        "shap_value": -0.22887641191482544,
+        "feature_value": 0.00942640663981145
+      },
+      {
+        "feature": "dst_host_same_srv_rate",
+        "shap_value": 0.15534067153930664,
+        "feature_value": 0.51
+      }
+    ]
+  },
+  {
+    "sample_index": 74,
+    "predicted_class": "Normal",
+    "base_value": -0.5200569033622742,
+    "top_features": [
+      {
+        "feature": "dst_bytes",
+        "shap_value": 1.043463945388794,
+        "feature_value": 1.0223389293088822e-05
+      },
+      {
+        "feature": "dst_host_diff_srv_rate",
+        "shap_value": 0.7172265648841858,
+        "feature_value": 0.71
+      },
+      {
+        "feature": "src_bytes",
+        "shap_value": 0.5717630386352539,
+        "feature_value": 1.9674427886188277e-06
+      },
+      {
+        "feature": "num_file_creations",
+        "shap_value": 0.3684406876564026,
+        "feature_value": 0.11627906976744186
+      },
+      {
+        "feature": "recon_error_other",
+        "shap_value": 0.3298476040363312,
+        "feature_value": 0.004549447657279136
+      },
+      {
+        "feature": "dst_host_srv_count",
+        "shap_value": -0.2939343750476837,
+        "feature_value": 0.054901960784313725
+      },
+      {
+        "feature": "dst_host_srv_rerror_rate",
+        "shap_value": 0.17657282948493958,
+        "feature_value": 0.07
+      },
+      {
+        "feature": "dst_host_same_src_port_rate",
+        "shap_value": 0.17653372883796692,
+        "feature_value": 0.0
+      },
+      {
+        "feature": "duration",
+        "shap_value": 0.1604837328195572,
+        "feature_value": 0.015941083247879184
+      },
+      {
+        "feature": "num_compromised",
+        "shap_value": -0.16009493172168732,
+        "feature_value": 0.0010696617194812142
+      }
+    ]
+  }
+]

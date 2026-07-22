@@ -41,7 +41,13 @@ def get_recon_error(
     was_single = x_122.ndim == 1
     x = np.atleast_2d(x_122)
 
-    reconstruction = autoencoder.predict(x, verbose=0)
+    # Direct call instead of .predict(): same forward pass, same
+    # weights, same numeric output — but .predict() builds a full
+    # tf.data pipeline (multiprocessing/threading) even for one tiny
+    # array, which is unnecessary overhead here and can outright
+    # deadlock in some terminal environments (observed hanging
+    # indefinitely in the VS Code integrated terminal on macOS).
+    reconstruction = autoencoder(x, training=False).numpy()
     squared_diff = np.square(x - reconstruction)
 
     content_error = np.mean(squared_diff[:, content_idx], axis=1)
@@ -62,7 +68,10 @@ def get_full_recon_error(x_122: np.ndarray, autoencoder):
     was_single = x_122.ndim == 1
     x = np.atleast_2d(x_122)
 
-    reconstruction = autoencoder.predict(x, verbose=0)
+    # See get_recon_error() above for why this is a direct call
+    # instead of .predict() — identical math, avoids the tf.data
+    # pipeline overhead/deadlock risk for small single-batch input.
+    reconstruction = autoencoder(x, training=False).numpy()
     error = np.mean(np.square(x - reconstruction), axis=1)
 
     return float(error[0]) if was_single else error
